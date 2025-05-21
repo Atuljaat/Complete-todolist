@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-blue-500 mx-20">
+    <h1 class="text-center text-4xl font-bold underline mb-5 mt-2">
+        TODO LIST WITH FLASK
+    </h1>
+    <div class="flex flex-col justify-center items-center">
+        <form action="" class="mx-auto flex gap-3.5">
+            <input
+            id="todobox" 
+            type="text"
+            class="bg-blue-800 opacity-75 font-medium text-white p-3 rounded-xl focus:outline-0 focus:border-0"
+            >
+            <button 
+            class="bg-black font-medium transition-all hover:scale-110 hover:cursor-pointer hover:bg-gray-900 text-white p-3 rounded-2xl"
+            id="addTodo"
+            >
+                Add todo
+            </button>
+        </form>
+    </div>
+    <div class="text-center ">
+        <!-- <h1 class="font-bold mx-5">TODOS : </h1> -->
+          <div id="displayTodo">
+
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
